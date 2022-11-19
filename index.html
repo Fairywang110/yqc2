@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>曰茶去</title>
+		<script src="vue.js"></script>
+		<style type="text/css">
+			 html,body{
+		      	background-color:#000000;
+			    width:100%;
+		      	height:100%;
+		      	overflow:hidden;
+		      	
+		      	
+            }
+            #mainDiv{
+            	width:500px;
+            	height:800px;
+                position:relative;
+                top:0px;
+                left:500px;
+                margin-top:0px;
+               
+            	background-image:url("img/image.jpg");
+            	background-size:cover;
+            	background-position:center;
+            	background-repeat:no-repeat;
+            }
+            #img1{
+                position:absolute;
+            	width:500px;
+            	height:800px;
+            	animation:bei 9s linear 1 ;
+            }
+            @keyframes bei{
+            	0%{opacity:0}
+		      	50%{opacity:0.1}
+		      	75%{opacity:0.2}
+		      	100%{opacity:1}
+            }
+            a{
+            	position:absolute;
+            	top:600px;
+            	left:230px;
+            	font-size:26px;
+            	
+            	animation:chux1 15s linear 1 ;
+            	
+            }
+            #person{
+            	width:200px;
+            	height:500px;
+            	position:absolute;
+            	bottom:50px;
+            	left:10px;
+            	
+            	animation:chux2 6s linear 1 ;
+            }
+            @keyframes chux1{
+            	0%{opacity:0}
+		      	50%{opacity:0.1}
+		      	100%{opacity:1}
+		    }
+		    @keyframes chux2{
+            	0%{opacity:0;
+            	position:absolute;
+            	bottom:50px;
+            	left:310px;}
+            	20%{opacity:1;
+            	position:absolute;
+            	bottom:50px;
+            	left:260px;}
+		      	40%{position:absolute;
+            	bottom:50px;
+            	left:210px;}
+            	60%{position:absolute;
+            	bottom:50px;
+            	left:160px;}
+            	85%{
+            	position:absolute;
+            	bottom:50px;
+            	left:80px;}
+		      	100%{position:absolute;
+            	bottom:50px;
+            	left:10px;}
+		    }
+
+		</style>
+		<script type="text/javascript">
+			
+		</script>
+
+	</head>
+	<body>
+		<div id="mainDiv">
+			<div id="img1"><img id="img1" src="img/yuechazi.PNG"/></div>
+			<a href="index.html" target="_blank">进        入</a>
+			<img id="person" src="img/people.png"/>
+			
+		</div>
+	    
+	</body>
+</html>
